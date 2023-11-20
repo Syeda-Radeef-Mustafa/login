@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h2 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style for user information */
+.user-info {
+    margin-bottom: 20px;
+}
+
+.user-info li {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for operations links */
+.operations {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+/* Style for edit_profile.php and delete_account.php pages */
+.form-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
